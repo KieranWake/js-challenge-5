@@ -5,8 +5,11 @@ function whichIsLarger(f, g) {
     const firstFunction = () => f; 
     const secondFunction = () => g; 
 
-    
-
-
-	
+    if (f > g) {
+        return "f"; 
+    } else if (g > f) {
+        return "g";
+    } else {
+        return "neither"; 
+    }
 }
