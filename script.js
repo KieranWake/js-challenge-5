@@ -1,5 +1,4 @@
 function whichIsLarger(f, g) {
-   
     if (f() > g()) {
         return "f"; 
     } else if (g() > f()) {
@@ -8,4 +7,6 @@ function whichIsLarger(f, g) {
         return "neither"; 
     }
 }
+
+console.log(whichIsLarger(() => 10, () => 10)); 
 
